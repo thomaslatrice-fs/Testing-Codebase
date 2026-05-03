@@ -60,7 +60,7 @@ const capitalWords = (str) => {
     .join(" "); //join back into sentance
 };
 
-MediaSourceHandle.exports = {
+module.exports = {
   sumOfArray,
   findMax,
   countVowels,
